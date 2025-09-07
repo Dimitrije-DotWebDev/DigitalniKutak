@@ -1,0 +1,12 @@
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\bin\Debug\net8.0\Domain.dll
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.dll
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
