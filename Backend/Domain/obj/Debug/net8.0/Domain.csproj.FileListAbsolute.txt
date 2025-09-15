@@ -10,3 +10,15 @@ E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domai
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.pdb
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Dimitrije\DigitalniKutak\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Dimitrije\DigitalniKutak\Backend\Domain\bin\Debug\net8.0\Domain.dll
+D:\Dimitrije\DigitalniKutak\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Dimitrije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dimitrije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Dimitrije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Dimitrije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Dimitrije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Dimitrije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.dll
+D:\Dimitrije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Dimitrije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Dimitrije\DigitalniKutak\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll

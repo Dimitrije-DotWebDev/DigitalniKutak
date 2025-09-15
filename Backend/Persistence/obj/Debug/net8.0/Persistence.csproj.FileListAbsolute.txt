@@ -14,3 +14,19 @@ E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.pdb
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\bin\Debug\net8.0\Persistence.deps.json
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\bin\Debug\net8.0\Persistence.dll
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\bin\Debug\net8.0\Persistence.pdb
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\bin\Debug\net8.0\Domain.dll
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\bin\Debug\net8.0\Domain.pdb
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.dll
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.pdb
+D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\ref\Persistence.dll
