@@ -32,7 +32,9 @@ namespace Application.Novosti
                     Naslov = request.Naslov,
                     Sadrzaj = request.Sadrzaj,
                     Timestamp = DateTime.Now,
-                    GrupaId = request.GrupaId
+                    GrupaId = request.GrupaId,
+                    SlikaPutanja = "",
+                    FajlPutanja = ""
                 };
 
                 _context.Novosti.Add(novost);
