@@ -1,8 +1,11 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Application.Novosti;
+using Backend.Application.Common.Services;
 using MediatR;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,6 +32,7 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter(JsonNamingPolicy.CamelCase));
     });
 builder.Services.AddMediatR(typeof(List.Handler).Assembly);
+builder.Services.AddTransient<UploadFileService>();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
@@ -48,7 +52,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("CorsPolicy");
-
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "uploads")),
+    RequestPath = "/Uploads",
+    ContentTypeProvider = new FileExtensionContentTypeProvider()
+});
 app.UseHttpsRedirection();
 
 var summaries = new[]

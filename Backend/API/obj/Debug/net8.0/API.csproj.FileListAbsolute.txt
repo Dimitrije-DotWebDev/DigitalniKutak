@@ -26,11 +26,6 @@ E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\API.MvcA
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\API.sourcelink.json
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets.build.json
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets.development.json
-E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
-E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets\msbuild.build.API.props
-E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API.props
-E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API.props
-E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets.pack.json
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\scopedcss\bundle\API.styles.css
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\API.csproj.Up2Date
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\API.dll
@@ -290,3 +285,10 @@ D:\Dimitrije\DigitalniKutak\Backend\API\obj\Debug\net8.0\refint\API.dll
 D:\Dimitrije\DigitalniKutak\Backend\API\obj\Debug\net8.0\API.pdb
 D:\Dimitrije\DigitalniKutak\Backend\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 D:\Dimitrije\DigitalniKutak\Backend\API\obj\Debug\net8.0\ref\API.dll
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\bin\Debug\net8.0\API.staticwebassets.endpoints.json
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
