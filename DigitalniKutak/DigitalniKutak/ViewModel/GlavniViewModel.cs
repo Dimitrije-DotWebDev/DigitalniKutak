@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.Input;
+using BrowserEngineKit;
 
 namespace DigitalniKutak.ViewModel
 {
@@ -15,6 +16,7 @@ namespace DigitalniKutak.ViewModel
     {
         NovostService novostService;
         public ObservableCollection<Novost> Novosti { get; } = new ObservableCollection<Novost>();
+        public ObservableCollection<Sekcija> Sekcije { get; } = new ObservableCollection<Sekcija>();
         public GlavniViewModel(NovostService novostService)
         {
             Title = "Početna strana";
