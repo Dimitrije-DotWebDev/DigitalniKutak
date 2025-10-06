@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|e:\\tesla\\mobilne aplikacije\\digitalnikutak - lokalni test\\digitalnikutak\\digitalnikutak\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|e:\\tesla\\mobilne aplikacije\\digitalnikutak - lokalni test\\digitalnikutak\\digitalnikutak\\viewmodel\\glavniviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\viewmodel\\glavniviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|e:\\tesla\\mobilne aplikacije\\digitalnikutak - lokalni test\\digitalnikutak\\digitalnikutak\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|e:\\tesla\\mobilne aplikacije\\digitalnikutak - lokalni test\\digitalnikutak\\digitalnikutak\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dimit\\.nuget\\packages\\communitytoolkit.maui\\9.0.0\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|e:\\tesla\\mobilne aplikacije\\digitalnikutak - lokalni test\\digitalnikutak\\digitalnikutak\\digitalnikutak.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\digitalnikutak.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|e:\\tesla\\mobilne aplikacije\\digitalnikutak - lokalni test\\digitalnikutak\\digitalnikutak\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|e:\\tesla\\mobilne aplikacije\\digitalnikutak - lokalni test\\digitalnikutak\\digitalnikutak\\services\\novostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\services\\novostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|e:\\tesla\\mobilne aplikacije\\digitalnikutak - lokalni test\\digitalnikutak\\digitalnikutak\\model\\novost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\model\\novost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Dimit\\.nuget\\packages\\communitytoolkit.maui\\9.0.0\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\Dimit\\.nuget\\packages\\communitytoolkit.maui\\9.0.0\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-14T22:10:23.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NovostService.cs",
+              "DocumentMoniker": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\Services\\NovostService.cs",
+              "RelativeDocumentMoniker": "DigitalniKutak\\Services\\NovostService.cs",
+              "ToolTip": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\Services\\NovostService.cs",
+              "RelativeToolTip": "DigitalniKutak\\Services\\NovostService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T20:34:08.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "DigitalniKutak\\MainPage.xaml.cs",
+              "ToolTip": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\MainPage.xaml.cs",
+              "RelativeToolTip": "DigitalniKutak\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T20:31:07.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "DigitalniKutak\\ViewModel\\BaseViewModel.cs",
+              "ToolTip": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "DigitalniKutak\\ViewModel\\BaseViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T20:28:15.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Novost.cs",
+              "DocumentMoniker": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\Model\\Novost.cs",
+              "RelativeDocumentMoniker": "DigitalniKutak\\Model\\Novost.cs",
+              "ToolTip": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\Model\\Novost.cs",
+              "RelativeToolTip": "DigitalniKutak\\Model\\Novost.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T20:26:32.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\MainPage.xaml",
+              "RelativeDocumentMoniker": "DigitalniKutak\\MainPage.xaml",
+              "ToolTip": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\MainPage.xaml",
+              "RelativeToolTip": "DigitalniKutak\\MainPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-14T20:13:43.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DigitalniKutak.csproj",
+              "DocumentMoniker": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak.csproj",
+              "RelativeDocumentMoniker": "DigitalniKutak\\DigitalniKutak.csproj",
+              "ToolTip": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak.csproj",
+              "RelativeToolTip": "DigitalniKutak\\DigitalniKutak.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-14T22:07:55.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlavniViewModel.cs",
+              "DocumentMoniker": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\ViewModel\\GlavniViewModel.cs",
+              "RelativeDocumentMoniker": "DigitalniKutak\\ViewModel\\GlavniViewModel.cs",
+              "ToolTip": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\ViewModel\\GlavniViewModel.cs",
+              "RelativeToolTip": "DigitalniKutak\\ViewModel\\GlavniViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T20:25:22.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "DigitalniKutak\\MauiProgram.cs",
+              "ToolTip": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak - lokalni test\\DigitalniKutak\\DigitalniKutak\\MauiProgram.cs",
+              "RelativeToolTip": "DigitalniKutak\\MauiProgram.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T21:10:25.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

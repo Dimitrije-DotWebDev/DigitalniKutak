@@ -1,1 +1,0 @@
-D:\Dimitrije\DigitalniKutak\ClientApp\ClientApp\ClientApp.csproj;x64
