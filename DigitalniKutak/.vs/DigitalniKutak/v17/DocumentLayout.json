@@ -63,7 +63,7 @@
               "RelativeDocumentMoniker": "DigitalniKutak\\Services\\SekcijaServis.cs",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Services\\SekcijaServis.cs",
               "RelativeToolTip": "DigitalniKutak\\Services\\SekcijaServis.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T12:34:31.42Z",
               "EditorCaption": ""
@@ -78,8 +78,7 @@
               "RelativeToolTip": "DigitalniKutak\\Model\\Sekcija.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:28:15.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T12:28:15.201Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "DigitalniKutak\\ViewModel\\BaseViewModel.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T20:28:15.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T20:28:15.145Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "DigitalniKutak\\Model\\Novost.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T20:26:32.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T20:26:32.482Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "DigitalniKutak\\MainPage.xaml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-14T20:13:43.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T20:13:43.595Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "DigitalniKutak\\ViewModel\\GlavniViewModel.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwBMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T20:25:22.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T20:25:22.254Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "DigitalniKutak\\Services\\NovostService.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T20:34:08.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T20:34:08.526Z"
             },
             {
               "$type": "Document",
