@@ -13,7 +13,7 @@
           ColumnSpacing="5"
           Padding="5"
           RowSpacing="10"
-          RowDefinitions="*,Auto">
+          RowDefinitions="*,*,Auto">
 
         <CollectionView ItemsSource="{Binding Novosti}"
                         Grid.ColumnSpan="2"
@@ -33,7 +33,23 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Button Text="Ucitaj Novosti" Command="{Binding GetNovostCommand}" Grid.Row="1" Padding="10" ></Button>
+        <CollectionView ItemsSource="{Binding Sekcije}" 
+                        Grid.ColumnSpan="2" Grid.Row="1" 
+                        SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Sekcija">
+                    <Frame BorderColor="Transparent" Margin=" 0,150,0,150">
+                        <VerticalStackLayout>
+                            <Label Text="{Binding Naziv}"></Label>
+                            <Label Text="{Binding ProfesorId}" TextColor="MediumPurple" FontAttributes="Italic" ></Label>
+                            <Label Text="{Binding Opis}"></Label>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+         <Button Text="Ucitaj Novosti" Command="{Binding GetNovostCommand}" Grid.Row="2" Padding="10" ></Button>
+        <Button Text="Ucitaj Sekcije" Command="{Binding GetSekcijeCommand}" Grid.Row="2" Grid.Column="1" Padding="10"></Button>
     </Grid>
     
     

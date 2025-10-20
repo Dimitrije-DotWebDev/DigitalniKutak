@@ -24,6 +24,7 @@ namespace DigitalniKutak
 #endif
 
             builder.Services.AddSingleton<NovostService>();
+            builder.Services.AddSingleton<SekcijaServis>();
 
             builder.Services.AddSingleton<GlavniViewModel>();
 

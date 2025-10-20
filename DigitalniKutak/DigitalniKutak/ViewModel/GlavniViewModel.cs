@@ -8,19 +8,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.Input;
-using BrowserEngineKit;
 
 namespace DigitalniKutak.ViewModel
 {
     public partial class GlavniViewModel : BaseViewModel
     {
         NovostService novostService;
+        SekcijaServis sekcijaService;
         public ObservableCollection<Novost> Novosti { get; } = new ObservableCollection<Novost>();
         public ObservableCollection<Sekcija> Sekcije { get; } = new ObservableCollection<Sekcija>();
-        public GlavniViewModel(NovostService novostService)
+        public GlavniViewModel(NovostService novostService, SekcijaServis sekcijaServis)
         {
             Title = "Početna strana";
             this.novostService = novostService;
+            this.sekcijaService = sekcijaServis;
         }
 
         [RelayCommand]
@@ -47,6 +48,38 @@ namespace DigitalniKutak.ViewModel
             {
                 Debug.WriteLine(ex);
                 await Shell.Current.DisplayAlert("Error!", $"Unable to get novosti: {ex.Message}", "OK");
+            }
+            finally
+            {
+                this.IsBusy = false;
+            }
+        }
+
+        [RelayCommand]
+        async Task GetSekcijeAsync()
+        {
+            if (this.IsBusy)
+                return;
+
+            try
+            {
+                IsBusy= true;
+                var sekcije = await sekcijaService.GetSekcije();
+                if(this.Sekcije.Count != 0)
+                {
+                    this.Sekcije.Clear();
+                }
+
+                foreach(var sekcija in sekcije)
+                {
+                    this.Sekcije.Add(sekcija);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+                await Shell.Current.DisplayAlert("Error!", $"Unable to get Sekcije: {ex.Message}", "OK");
             }
             finally
             {
