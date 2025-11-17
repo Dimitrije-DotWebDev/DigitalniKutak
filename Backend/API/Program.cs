@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Persistence;
+using Domain;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +34,11 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter(JsonNamingPolicy.CamelCase));
     });
 builder.Services.AddMediatR(typeof(List.Handler).Assembly);
+var identityServiceBuilder = builder.Services.AddIdentityCore<Korisnik>();
+var identityBuilder = new IdentityBuilder(identityServiceBuilder.UserType, identityServiceBuilder.Services);
+identityBuilder.AddEntityFrameworkStores<DataContext>();
+identityBuilder.AddSignInManager<SignInManager<Korisnik>>();
+builder.Services.AddSingleton<TimeProvider>(TimeProvider.System);
 builder.Services.AddTransient<UploadFileService>();
 builder.Services.AddSwaggerGen();
 

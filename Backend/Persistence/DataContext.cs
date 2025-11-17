@@ -1,10 +1,11 @@
 ﻿using System.Data.Common;
 using Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Persistence;
 
-public class DataContext : DbContext
+public class DataContext : IdentityDbContext<Korisnik>
 {
     public DataContext(DbContextOptions<DataContext> options) : base(options)
     {
