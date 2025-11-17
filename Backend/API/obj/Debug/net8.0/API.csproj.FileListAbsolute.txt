@@ -292,3 +292,10 @@ E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\rjsmrazo
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets.build.json.cache
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\Backend\API\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
