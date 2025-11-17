@@ -13,6 +13,7 @@ namespace DigitalniKutak.Services
         HttpClient httpClient;
         List<Novost> novosti;
         public string baseUrl;
+        Novost novost;
 
         public NovostService() {
             httpClient = new HttpClient();
@@ -31,5 +32,20 @@ namespace DigitalniKutak.Services
 
             return novosti;
         }
+
+        public async Task<Novost> GetNovostById(Guid Id)
+        {
+            var url = baseUrl + $"api/Novosti/{Id}";
+
+            var response = await httpClient.GetAsync(url);
+            if (response.IsSuccessStatusCode)
+            {
+                novost = await response.Content.ReadFromJsonAsync<Novost>();
+            }
+            return novost;
+        }   
+        
+
+
     }
 }

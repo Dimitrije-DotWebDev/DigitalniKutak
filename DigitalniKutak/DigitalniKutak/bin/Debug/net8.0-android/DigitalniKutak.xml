@@ -6,12 +6,19 @@
     <members>
         <member name="T:DigitalniKutak.ViewModel.GlavniViewModel">
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="F:DigitalniKutak.ViewModel.GlavniViewModel.getNovostCommand">
             <summary>The backing field for <see cref="P:DigitalniKutak.ViewModel.GlavniViewModel.GetNovostCommand"/>.</summary>
         </member>
         <member name="P:DigitalniKutak.ViewModel.GlavniViewModel.GetNovostCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DigitalniKutak.ViewModel.GlavniViewModel.GetNovostAsync"/>.</summary>
+        </member>
+        <member name="F:DigitalniKutak.ViewModel.GlavniViewModel.getSekcijeCommand">
+            <summary>The backing field for <see cref="P:DigitalniKutak.ViewModel.GlavniViewModel.GetSekcijeCommand"/>.</summary>
+        </member>
+        <member name="P:DigitalniKutak.ViewModel.GlavniViewModel.GetSekcijeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DigitalniKutak.ViewModel.GlavniViewModel.GetSekcijeAsync"/>.</summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>

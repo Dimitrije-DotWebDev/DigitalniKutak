@@ -63,14 +63,14 @@ namespace DigitalniKutak.ViewModel
 
             try
             {
-                IsBusy= true;
+                IsBusy = true;
                 var sekcije = await sekcijaService.GetSekcije();
-                if(this.Sekcije.Count != 0)
+                if (this.Sekcije.Count != 0)
                 {
                     this.Sekcije.Clear();
                 }
 
-                foreach(var sekcija in sekcije)
+                foreach (var sekcija in sekcije)
                 {
                     this.Sekcije.Add(sekcija);
                 }
@@ -86,5 +86,15 @@ namespace DigitalniKutak.ViewModel
                 this.IsBusy = false;
             }
         }
+
+        [RelayCommand]
+
+         async Task OtvoriNovost(Guid id)
+        {
+            Shell.Current.GoToAsync($"{nameof(Novost)}?Id={id}");
+        }
+
+
+
     }
 }

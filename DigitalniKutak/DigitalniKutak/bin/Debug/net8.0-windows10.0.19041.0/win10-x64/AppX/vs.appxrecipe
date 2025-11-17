@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-10-20T12:34:02.435</Modified>
+      <Modified>2025-10-27T12:52:10.503</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-10-20T11:32:25.724</Modified>
+      <Modified>2025-10-27T12:52:10.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigitalniKutak.runtimeconfig.json">
       <PackagePath>DigitalniKutak.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigitalniKutak.dll">
       <PackagePath>DigitalniKutak.dll</PackagePath>
-      <Modified>2025-10-20T12:34:02.242</Modified>
+      <Modified>2025-10-27T12:52:09.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DigitalniKutak.exe</PackagePath>
-      <Modified>2025-10-20T12:34:02.245</Modified>
+      <Modified>2025-10-27T12:52:09.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigitalniKutak.deps.json">
       <PackagePath>DigitalniKutak.deps.json</PackagePath>
-      <Modified>2025-10-20T11:32:25.549</Modified>
+      <Modified>2025-10-27T12:52:10.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nastavnik\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Maui;
 using DigitalniKutak.Services;
+using DigitalniKutak.View;
 using DigitalniKutak.ViewModel;
 using Microsoft.Extensions.Logging;
 
@@ -27,9 +28,10 @@ namespace DigitalniKutak
             builder.Services.AddSingleton<SekcijaServis>();
 
             builder.Services.AddSingleton<GlavniViewModel>();
+            builder.Services.AddTransient<NovostViewModel>();
 
             builder.Services.AddSingleton<MainPage>();
-
+            builder.Services.AddTransient<NovostPage>();
             return builder.Build();
         }
     }
