@@ -1,11 +1,11 @@
-﻿using Android.Database;
+﻿
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using DigitalniKutak.Model;
 using DigitalniKutak.Services;
-using Kotlin.Properties;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,13 +36,15 @@ namespace DigitalniKutak.ViewModel
 
             try
             {
-                 IsBusy = true;
+                IsBusy = true;
                 var novost = await novostService.GetNovostById(Id);
-
+                this.novost = novost;
+                this.Title = novost.Naslov;
             }
             catch ( Exception ex)
             {
-                
+                Debug.WriteLine(ex);
+                await Shell.Current.DisplayAlert("Error!", $"Unable to get Novost: {ex.Message}", "OK");
             }
             finally
             {

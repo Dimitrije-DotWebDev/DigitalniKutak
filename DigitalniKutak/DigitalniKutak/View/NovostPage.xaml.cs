@@ -9,4 +9,9 @@ public partial class NovostPage : ContentPage
 		InitializeComponent();
 		BindingContext = novostViewModel;
 	}
+
+    protected override void OnNavigatedTo(NavigatedToEventArgs args)
+    {
+        base.OnNavigatedTo(args);
+    }
 }

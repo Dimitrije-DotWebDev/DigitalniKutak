@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DigitalniKutak.Model
 {
-    public class Novost
+    public partial class Novost
     {
         public Guid Id { get; set; }
         public string Naslov { get; set; } = null!;

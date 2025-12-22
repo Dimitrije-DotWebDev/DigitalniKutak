@@ -18,7 +18,7 @@ namespace DigitalniKutak.Services
         public NovostService() {
             httpClient = new HttpClient();
             novosti = new List<Novost>();
-            baseUrl = @"http://localhost:5286/";
+            baseUrl = @"http://160.99.37.253:5000/";
         }
 
         public async Task<List<Novost>> GetNovosti() {

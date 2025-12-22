@@ -19,7 +19,7 @@ namespace DigitalniKutak.Services
         {
             this.httpClient = new HttpClient();
             Sekcije = new List<Sekcija>();
-            baseUrl = @"http://localhost:5286/";
+            baseUrl = @"http://160.99.37.253:5000/";
         }
 
         public async Task<List<Sekcija>> GetSekcije()

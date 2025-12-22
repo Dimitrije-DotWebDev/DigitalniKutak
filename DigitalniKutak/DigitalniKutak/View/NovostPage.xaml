@@ -2,11 +2,21 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DigitalniKutak.View.NovostPage"
-             Title="NovostPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:model="clr-namespace:DigitalniKutak.Model"
+             xmlns:viewmodel="clr-namespace:DigitalniKutak.ViewModel"
+             x:DataType="viewmodel:NovostViewModel"
+             Title="{Binding Title}">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Margin="0,35,0,0" FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding novost.Naslov}"></Label>
+            <Grid ColumnDefinitions="*,100">
+                <Label Grid.Column="1" FontAttributes="Italic" Text="{Binding novost.Timestamp}"></Label>
+            </Grid>
+            <Image  Source="{Binding novost.SlikaPutanja,StringFormat='http://160.99.37.253:5000/{0}'}"
+HeightRequest="300" ></Image>
+            <Label Padding="50,15,50,15" Text="{Binding novost.Sadrzaj}"></Label>
+            <Button Text="Prikazi Novost" Command="{Binding GetNovostIDCommand}"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

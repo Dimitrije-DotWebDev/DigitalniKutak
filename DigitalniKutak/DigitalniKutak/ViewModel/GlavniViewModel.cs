@@ -1,4 +1,5 @@
 ﻿using DigitalniKutak.Model;
+using DigitalniKutak.View;
 using DigitalniKutak.Services;
 using System;
 using System.Collections.Generic;
@@ -88,13 +89,19 @@ namespace DigitalniKutak.ViewModel
         }
 
         [RelayCommand]
-
-         async Task OtvoriNovost(Guid id)
+        async Task OtvoriNovost(Guid id)
         {
-            Shell.Current.GoToAsync($"{nameof(Novost)}?Id={id}");
+            await Shell.Current.GoToAsync($"{nameof(NovostPage)}",true,new Dictionary<string, object> {
+                { "Id", id}
+            });
+
+            /*
+             "Id": 3123asd-123asdvxf-asxcvxcva13-asdasxc32
+             */
         }
 
 
+        
 
     }
 }

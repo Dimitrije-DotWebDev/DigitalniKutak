@@ -30,3 +30,18 @@ D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.dll
 D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\Persistence.pdb
 D:\Dimitrije\DigitalniKutak\Backend\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\Nastavnik\Downloads\DigitalniKutak-main (1)\DigitalniKutak-main\Backend\Persistence\obj\Debug\net8.0\ref\Persistence.dll

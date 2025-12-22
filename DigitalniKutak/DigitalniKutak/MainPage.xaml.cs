@@ -12,6 +12,11 @@ namespace DigitalniKutak
             InitializeComponent();
             BindingContext = viewModel;
         }
+        protected override void OnAppearing()
+        {
+            (BindingContext as GlavniViewModel).GetNovostCommand.Execute(null);
+            (BindingContext as GlavniViewModel).GetSekcijeCommand.Execute(null);
+        }
 
         /*private void OnCounterClicked(object sender, EventArgs e)
         {

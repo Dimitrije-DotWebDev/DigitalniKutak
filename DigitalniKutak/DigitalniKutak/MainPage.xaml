@@ -22,11 +22,10 @@
                 <DataTemplate x:DataType="model:Novost" >
                     <Frame Margin="0,150,0,150" BorderColor="Transparent">
                         <Frame.GestureRecognizers>
-                            <TapGestureRecognizer CommandParameter="{Binding Id}"
-                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:GlavniViewModel}}, Path=OtvoriNovost}"></TapGestureRecognizer>
+                            <TapGestureRecognizer CommandParameter="{Binding Id}" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:GlavniViewModel}}, Path = OtvoriNovostCommand}"></TapGestureRecognizer>
                         </Frame.GestureRecognizers>
                         <Grid ColumnDefinitions="125,*" ColumnSpacing="25">
-                            <Image Source="{Binding SlikaPutanja,StringFormat='http://localhost:5286/{0}'}"
+                            <Image Source="{Binding SlikaPutanja,StringFormat='http://160.99.37.253:5000/{0}'}"
                                HeightRequest="120" WidthRequest="120" ></Image>
                             <VerticalStackLayout Grid.Column="1" HeightRequest="120">
                                 <Label Text="{Binding Naslov}"></Label>
