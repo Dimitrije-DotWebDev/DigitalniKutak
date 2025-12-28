@@ -39,6 +39,8 @@ namespace DigitalniKutak.ViewModel
 
                 foreach (var novost in novosti)
                 {
+                    novost.SlikaPutanja = $"{novostService.baseUrl}{novost.SlikaPutanja}";
+                    novost.FajlPutanja = $"{novostService.baseUrl}{novost.FajlPutanja}";
                     this.Novosti.Add(novost);
                 }
             }

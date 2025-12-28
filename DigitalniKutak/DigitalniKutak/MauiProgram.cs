@@ -23,7 +23,10 @@ namespace DigitalniKutak
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-
+            builder.Services.AddSingleton(new AppConfig
+            {
+                BaseApiUrl = @"http://192.168.99.102:5000/"
+            });
             builder.Services.AddSingleton<NovostService>();
             builder.Services.AddSingleton<SekcijaServis>();
 

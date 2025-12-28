@@ -9,13 +9,13 @@
              Title="{Binding Title}">
     <ScrollView>
         <VerticalStackLayout>
-            <Label Margin="0,35,0,0" FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding novost.Naslov}"></Label>
+            <Label Margin="0,35,0,0" FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding Novost.Naslov}"></Label>
             <Grid ColumnDefinitions="*,100">
-                <Label Grid.Column="1" FontAttributes="Italic" Text="{Binding novost.Timestamp}"></Label>
+                <Label Grid.Column="1" FontAttributes="Italic" Text="{Binding Novost.Timestamp}"></Label>
             </Grid>
-            <Image  Source="{Binding novost.SlikaPutanja,StringFormat='http://160.99.37.253:5000/{0}'}"
+            <Image  Source="{Binding Novost.SlikaPutanja}"
 HeightRequest="300" ></Image>
-            <Label Padding="50,15,50,15" Text="{Binding novost.Sadrzaj}"></Label>
+            <Label Padding="50,15,50,15" Text="{Binding Novost.Sadrzaj}"></Label>
             <Button Text="Prikazi Novost" Command="{Binding GetNovostIDCommand}"></Button>
         </VerticalStackLayout>
     </ScrollView>

@@ -18,9 +18,9 @@ namespace DigitalniKutak.ViewModel
         private NovostService novostService;
 
         [ObservableProperty]
-        public Guid Id { get; set; }
+        Guid id;
         [ObservableProperty]
-        public Novost novost { get; set; }
+        Novost novost;
 
         
 
@@ -37,8 +37,8 @@ namespace DigitalniKutak.ViewModel
             try
             {
                 IsBusy = true;
-                var novost = await novostService.GetNovostById(Id);
-                this.novost = novost;
+                var novost = await novostService.GetNovostById(id);
+                this.Novost = novost;
                 this.Title = novost.Naslov;
             }
             catch ( Exception ex)

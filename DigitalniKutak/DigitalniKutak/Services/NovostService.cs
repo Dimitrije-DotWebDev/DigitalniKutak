@@ -13,12 +13,14 @@ namespace DigitalniKutak.Services
         HttpClient httpClient;
         List<Novost> novosti;
         public string baseUrl;
+        private readonly AppConfig _config;
         Novost novost;
 
-        public NovostService() {
+        public NovostService(AppConfig config) {
             httpClient = new HttpClient();
             novosti = new List<Novost>();
-            baseUrl = @"http://160.99.37.253:5000/";
+            _config = config;
+            baseUrl = $"{_config.BaseApiUrl}";
         }
 
         public async Task<List<Novost>> GetNovosti() {
@@ -41,6 +43,8 @@ namespace DigitalniKutak.Services
             if (response.IsSuccessStatusCode)
             {
                 novost = await response.Content.ReadFromJsonAsync<Novost>();
+                novost.SlikaPutanja = $"{baseUrl}{novost.SlikaPutanja}";
+                novost.FajlPutanja = $"{baseUrl}{novost.FajlPutanja}";
             }
             return novost;
         }   

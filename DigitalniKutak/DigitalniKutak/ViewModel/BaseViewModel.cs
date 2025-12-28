@@ -15,8 +15,8 @@ namespace DigitalniKutak.ViewModel
         }
 
         [ObservableProperty]
-        public string Title { get; set; }
+        private string title;
         [ObservableProperty]
-        public bool IsBusy { get; set; }
+        private bool isBusy;
     }
 }

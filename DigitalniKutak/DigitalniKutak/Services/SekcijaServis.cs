@@ -13,13 +13,15 @@ namespace DigitalniKutak.Services
     {
         HttpClient httpClient;
         List<Sekcija> Sekcije;
+        private readonly AppConfig _config;
         public string baseUrl;
 
-        public SekcijaServis()
+        public SekcijaServis(AppConfig config)
         {
             this.httpClient = new HttpClient();
             Sekcije = new List<Sekcija>();
-            baseUrl = @"http://160.99.37.253:5000/";
+            this._config = config;
+            baseUrl = $"{_config.BaseApiUrl}";
         }
 
         public async Task<List<Sekcija>> GetSekcije()

@@ -1,1 +1,1 @@
-D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\DigitalniKutak.csproj;x64
+E:\TESLA\Mobilne aplikacije\DigitalniKutak\DigitalniKutak\DigitalniKutak\DigitalniKutak.csproj;x64
