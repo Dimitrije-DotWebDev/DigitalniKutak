@@ -102,8 +102,61 @@ namespace DigitalniKutak.ViewModel
              */
         }
 
+        [RelayCommand]
+        async Task GetSve()
+        {
+            if (this.IsBusy)
+                return;
+            try
+            {
 
-        
+                IsBusy = true;
+                var sekcije = await sekcijaService.GetSekcije();
+                if (this.Sekcije.Count != 0)
+                {
+                    this.Sekcije.Clear();
+                }
+
+                foreach (var sekcija in sekcije)
+                {
+                    this.Sekcije.Add(sekcija);
+                }
+
+                
+                var novosti = await novostService.GetNovosti();
+
+                if (this.Novosti.Count != 0)
+                {
+                    this.Novosti.Clear();
+                }
+
+                foreach (var novost in novosti)
+                {
+                    novost.SlikaPutanja = $"{novostService.baseUrl}{novost.SlikaPutanja}";
+                    novost.FajlPutanja = $"{novostService.baseUrl}{novost.FajlPutanja}";
+                    this.Novosti.Add(novost);
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                Debug.WriteLine(ex);
+                await Shell.Current.DisplayAlert("Error!", $"Unable to get Sekcije and Novosti: {ex.Message}", "OK");
+            }
+            finally
+            {
+                this.IsBusy = false;
+            }
+
+        }
+
+        [RelayCommand]
+        async Task OtvoriLogin()
+        {
+            await Shell.Current.GoToAsync($"{nameof(LoginPage)}");
+        }
+
 
     }
 }

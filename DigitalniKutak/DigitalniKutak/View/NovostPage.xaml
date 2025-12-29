@@ -16,7 +16,7 @@
             <Image  Source="{Binding Novost.SlikaPutanja}"
 HeightRequest="300" ></Image>
             <Label Padding="50,15,50,15" Text="{Binding Novost.Sadrzaj}"></Label>
-            <Button Text="Prikazi Novost" Command="{Binding GetNovostIDCommand}"></Button>
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

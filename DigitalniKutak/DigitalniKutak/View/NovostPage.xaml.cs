@@ -13,5 +13,6 @@ public partial class NovostPage : ContentPage
     protected override void OnNavigatedTo(NavigatedToEventArgs args)
     {
         base.OnNavigatedTo(args);
+        (BindingContext as NovostViewModel).GetNovostIDCommand.Execute(null);
     }
 }

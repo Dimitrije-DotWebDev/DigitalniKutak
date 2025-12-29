@@ -25,7 +25,7 @@ namespace DigitalniKutak
 #endif
             builder.Services.AddSingleton(new AppConfig
             {
-                BaseApiUrl = @"http://192.168.99.102:5000/"
+                BaseApiUrl = @"http://160.99.37.253:5000/"
             });
             builder.Services.AddSingleton<NovostService>();
             builder.Services.AddSingleton<SekcijaServis>();
@@ -35,6 +35,9 @@ namespace DigitalniKutak
 
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddTransient<NovostPage>();
+
+            builder.Services.AddSingleton<LoginPage>();
+            builder.Services.AddSingleton<RegisterPage>();
             return builder.Build();
         }
     }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DigitalniKutak.View.LoginPage"
+             Title="LoginPage">
+    <VerticalStackLayout Margin="250,30,250,0" Spacing="50">
+        <Label 
+            Text="Prijava Korisnika"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry
+            Placeholder="Unesite E-Mail Adresu"
+            
+            ></Entry>
+        <Entry
+            Placeholder="Unesite Sifru"
+            IsPassword="True"
+            ></Entry>
+        <Button Text="Prijavi se"></Button>
+        <Label Text="U slucaju da nemate nalog, idite na Registraciju"></Label>
+        
+    </VerticalStackLayout>
+</ContentPage>
