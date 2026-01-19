@@ -2,7 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DigitalniKutak.View.LoginPage"
-             Title="LoginPage">
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:model="clr-namespace:DigitalniKutak.Model"
+             xmlns:viewmodel="clr-namespace:DigitalniKutak.ViewModel"
+             x:DataType="viewmodel:LoginViewModel"
+             Title="{Binding Title}"
+             >
     <VerticalStackLayout Margin="250,30,250,0" Spacing="50">
         <Label 
             Text="Prijava Korisnika"
@@ -18,7 +23,20 @@
             IsPassword="True"
             ></Entry>
         <Button Text="Prijavi se"></Button>
-        <Label Text="U slucaju da nemate nalog, idite na Registraciju"></Label>
-        
+        <Label FontSize="16">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Ukoliko nemate nalog idite na "></Span>
+                    <Span Text="Registraciju"
+                          TextColor="Blue"
+                          TextDecorations="Underline">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding OtvoriRegistracijuCommand}"></TapGestureRecognizer>
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
     </VerticalStackLayout>
 </ContentPage>

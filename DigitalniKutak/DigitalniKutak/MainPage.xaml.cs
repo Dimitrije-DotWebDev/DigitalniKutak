@@ -12,6 +12,7 @@ namespace DigitalniKutak
             InitializeComponent();
             BindingContext = viewModel;
         }
+
         protected override void OnAppearing()
         {
             (BindingContext as GlavniViewModel).GetSveCommand.Execute(null);

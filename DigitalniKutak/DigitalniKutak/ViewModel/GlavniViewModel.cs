@@ -157,6 +157,8 @@ namespace DigitalniKutak.ViewModel
             await Shell.Current.GoToAsync($"{nameof(LoginPage)}");
         }
 
+        
+
 
     }
 }

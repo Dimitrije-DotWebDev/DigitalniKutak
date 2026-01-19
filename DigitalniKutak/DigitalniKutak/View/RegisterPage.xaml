@@ -3,10 +3,48 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DigitalniKutak.View.RegisterPage"
              Title="RegisterPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout Margin="250,30,250,50" Spacing="30">
+            <Entry Placeholder="Unesite Ime">
+            </Entry>
+            <Entry Placeholder="Unesite Prezime">
+            </Entry>
+            <Entry Placeholder="Unesite Sifru" IsPassword="True">
+            </Entry>
+            <Entry Placeholder="Potvrdite Sifru" IsPassword="True">
+            </Entry>
+            <Entry Placeholder="Unesite E-Mail">
+            </Entry>
+            <Picker x:Name="Razred"
+            Title="Odaberite Razred">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>I</x:String>
+                        <x:String>II</x:String>
+                        <x:String>III</x:String>
+                        <x:String>IV</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            
+            <Picker x:Name="Odeljenje"
+                Title="Odaberite Odeljenje">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>
