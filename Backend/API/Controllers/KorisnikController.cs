@@ -25,7 +25,7 @@ namespace API.Controllers
             return await _mediator.Send(query);
         }
         [HttpPost("register")]
-        public async Task<ActionResult<KorisnikDTO>> Register(Register.Command command)
+        public async Task<ActionResult<KorisnikDTO>> Register([FromForm] Register.Command command)
         {
             return await _mediator.Send(command);
         }

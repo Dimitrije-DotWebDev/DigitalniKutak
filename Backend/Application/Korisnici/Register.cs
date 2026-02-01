@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Http;
 using Backend.Application.Common.Services;
 using Microsoft.EntityFrameworkCore;
 
+using Microsoft.AspNetCore.Http;
+
 
 namespace Application.Korisnici
 {
@@ -25,8 +27,9 @@ namespace Application.Korisnici
             public UserType TipKorisnika { get; set; }
             public string Odeljenje { get; set; }
             public string Razred { get; set; }
-            public DateTime DatumRodjenja { get; set; }
+            
             public IFormFile Slika { get; set; }
+            public DateTime DatumRodjenja { get; set; }
         }
 
         public class Handler : IRequestHandler<Command, KorisnikDTO>
