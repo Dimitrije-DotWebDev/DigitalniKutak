@@ -29,10 +29,12 @@ namespace DigitalniKutak
             });
             builder.Services.AddSingleton<NovostService>();
             builder.Services.AddSingleton<SekcijaServis>();
+            builder.Services.AddSingleton<KorisnikService>();
 
             builder.Services.AddSingleton<GlavniViewModel>();
             builder.Services.AddTransient<NovostViewModel>();
             builder.Services.AddSingleton<LoginViewModel>();
+            builder.Services.AddSingleton<RegisterViewModel>();
 
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddTransient<NovostPage>();
