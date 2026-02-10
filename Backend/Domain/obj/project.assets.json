@@ -1053,23 +1053,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nastavnik\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Dimit\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Domain\\Domain.csproj",
+      "projectUniqueName": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Nastavnik\\.nuget\\packages\\",
-      "outputPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Domain\\obj\\",
+      "projectPath": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Dimit\\.nuget\\packages\\",
+      "outputPath": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nastavnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1128,7 +1130,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
