@@ -1846,11 +1846,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Application\\Application.csproj",
       "projectName": "Application",
       "projectPath": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Dimit\\.nuget\\packages\\",
       "outputPath": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Application\\obj\\",
+=======
+      "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\backend\\Application\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\Nastavnik\\.nuget\\packages\\",
+      "outputPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Application\\obj\\",
+>>>>>>> 55ff986af04599f0a0b52e29e6a30fb54f32cb30
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1873,11 +1881,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Domain\\Domain.csproj": {
               "projectPath": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Domain\\Domain.csproj"
             },
             "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Persistence\\Persistence.csproj": {
               "projectPath": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Persistence\\Persistence.csproj"
+=======
+            "D:\\Dimitrije\\DigitalniKutak\\backend\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Domain\\Domain.csproj"
+            },
+            "D:\\Dimitrije\\DigitalniKutak\\backend\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Persistence\\Persistence.csproj"
+>>>>>>> 55ff986af04599f0a0b52e29e6a30fb54f32cb30
             }
           }
         }

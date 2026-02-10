@@ -1,9 +1,14 @@
+using DigitalniKutak.ViewModel;
+
 namespace DigitalniKutak.View;
 
 public partial class RegisterPage : ContentPage
 {
-	public RegisterPage()
+	public RegisterPage(RegisterViewModel viewModel)
 	{
 		InitializeComponent();
+		BindingContext=viewModel;
 	}
+
+	
 }

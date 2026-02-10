@@ -2,18 +2,22 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DigitalniKutak.View.RegisterPage"
-             Title="RegisterPage">
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:model="clr-namespace:DigitalniKutak.Model"
+             xmlns:viewmodel="clr-namespace:DigitalniKutak.ViewModel"
+             x:DataType="viewmodel:RegisterViewModel"
+             Title="{Binding Title}">
     <ScrollView>
         <VerticalStackLayout Margin="250,30,250,50" Spacing="30">
-            <Entry Placeholder="Unesite Ime">
+            <Entry Placeholder="Unesite Ime" Text="{Binding K.Ime}">
             </Entry>
-            <Entry Placeholder="Unesite Prezime">
+            <Entry Placeholder="Unesite Prezime" Text="{Binding K.Prezime}">
             </Entry>
             <Entry Placeholder="Unesite Sifru" IsPassword="True">
             </Entry>
             <Entry Placeholder="Potvrdite Sifru" IsPassword="True">
             </Entry>
-            <Entry Placeholder="Unesite E-Mail">
+            <Entry Placeholder="Unesite E-Mail" Text="{Binding K.Email}">
             </Entry>
             <Picker x:Name="Razred"
             Title="Odaberite Razred">
@@ -26,7 +30,7 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-            
+
             <Picker x:Name="Odeljenje"
                 Title="Odaberite Odeljenje">
                 <Picker.ItemsSource>
@@ -42,8 +46,24 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
+            <DatePicker Margin="170,0,0,0" MaximumDate="1,1,2010" MinimumDate="1,1,1950" Date="{Binding K.DatumRodjenja}">
 
-            
+            </DatePicker>
+            <VerticalStackLayout Padding="30" Spacing="25">
+                <Button 
+            Text="Pick an Image"
+                    Command="{Binding UcitajSlikuCommand}"
+            HorizontalOptions="Fill" />
+
+                <Image
+                   x:Name="MyImage"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   Aspect="AspectFit"
+                   Source="{Binding SlikaUrl}"/>
+            </VerticalStackLayout>
+
+            <Button Text="Registruj se" Command="{Binding RegistrujKorisnikaCommand}" CommandParameter="{Binding K}"></Button>
         </VerticalStackLayout>
     </ScrollView>
 

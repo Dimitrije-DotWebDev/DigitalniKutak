@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/7qPusYE6w0=",
+  "dgSpecHash": "Cjcubv7Y7s4=",
   "success": true,
-  "projectFilePath": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\API\\API.csproj",
+  "projectFilePath": "D:\\Dimitrije\\DigitalniKutak\\backend\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dimit\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Dimit\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",

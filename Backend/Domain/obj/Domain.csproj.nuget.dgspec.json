@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Domain\\Domain.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Dimit\\.nuget\\packages\\",
         "outputPath": "E:\\TESLA\\Mobilne aplikacije\\DigitalniKutak\\Backend\\Domain\\obj\\",
+=======
+    "D:\\Dimitrije\\DigitalniKutak\\backend\\Domain\\Domain.csproj": {}
+  },
+  "projects": {
+    "D:\\Dimitrije\\DigitalniKutak\\backend\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\backend\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Nastavnik\\.nuget\\packages\\",
+        "outputPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Domain\\obj\\",
+>>>>>>> 55ff986af04599f0a0b52e29e6a30fb54f32cb30
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
