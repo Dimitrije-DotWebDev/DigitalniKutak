@@ -75,5 +75,15 @@
     "C:\\Users\\Nastavnik\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Nastavnik\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\obj\\project.nuget.cache : '<' is an invalid start of a value. Path: $.expectedPackageFiles[0] | LineNumber: 6 | BytePositionInLine: 0.",
+      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

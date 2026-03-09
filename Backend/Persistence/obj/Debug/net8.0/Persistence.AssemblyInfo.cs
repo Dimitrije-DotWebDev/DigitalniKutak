@@ -13,7 +13,15 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55ff986af04599f0a0b52e29e6a30fb54f32cb30")]
+=======
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac42b26c46d37395e2c04ff7ded2483eb20db25c")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49311a18b0235d7a0f5cb81cbadac5ba9c01d55d")]
+>>>>>>> 55ff986af04599f0a0b52e29e6a30fb54f32cb30
+>>>>>>> 8255543dd4ba0c3e9652a2fc5f1a6d6a682ff55f
 [assembly: System.Reflection.AssemblyProductAttribute("Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

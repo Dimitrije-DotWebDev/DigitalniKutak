@@ -35,5 +35,15 @@
     "C:\\Users\\Nastavnik\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\Nastavnik\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file D:\\Dimitrije\\DigitalniKutak\\Backend\\Persistence\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Persistence\\Persistence.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Persistence\\Persistence.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
