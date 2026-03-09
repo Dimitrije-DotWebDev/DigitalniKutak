@@ -9,18 +9,28 @@
              Title="{Binding Title}">
     <ScrollView>
         <VerticalStackLayout Margin="250,30,250,50" Spacing="30">
+            <Entry Placeholder="Unesite Korisnicko Ime" Text="{Binding K.Username}">
+            </Entry>
             <Entry Placeholder="Unesite Ime" Text="{Binding K.Ime}">
             </Entry>
             <Entry Placeholder="Unesite Prezime" Text="{Binding K.Prezime}">
             </Entry>
-            <Entry Placeholder="Unesite Sifru" IsPassword="True">
+            <Entry Placeholder="Unesite Sifru" IsPassword="True" Text="{Binding K.Password}">
+                <Entry.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="TextChanged" Command="{Binding PasswordNotCheckCommand}"></toolkit:EventToCommandBehavior>
+                </Entry.Behaviors>
             </Entry>
-            <Entry Placeholder="Potvrdite Sifru" IsPassword="True">
+            <Entry Placeholder="Potvrdite Sifru" IsPassword="True" Text="{Binding PotvrdaSifre}">
+                <Entry.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="TextChanged" Command="{Binding PasswordNotCheckCommand}"></toolkit:EventToCommandBehavior>
+                </Entry.Behaviors>
             </Entry>
+            <Label TextColor="Red" Text="Sifra se ne poklapa" IsVisible="{Binding IsPasswordNotChecked}"></Label>
             <Entry Placeholder="Unesite E-Mail" Text="{Binding K.Email}">
             </Entry>
             <Picker x:Name="Razred"
-            Title="Odaberite Razred">
+            Title="Odaberite Razred"
+                    SelectedItem="{Binding K.Razred}">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>I</x:String>
@@ -32,7 +42,8 @@
             </Picker>
 
             <Picker x:Name="Odeljenje"
-                Title="Odaberite Odeljenje">
+                Title="Odaberite Odeljenje"
+                    SelectedItem="{Binding K.Odeljenje}">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>1</x:String>
@@ -51,9 +62,9 @@
             </DatePicker>
             <VerticalStackLayout Padding="30" Spacing="25">
                 <Button 
-            Text="Pick an Image"
+            Text="Izaberi sliku"
                     Command="{Binding UcitajSlikuCommand}"
-            HorizontalOptions="Fill" />
+            HorizontalOptions="Fill"  />
 
                 <Image
                    x:Name="MyImage"
@@ -63,7 +74,7 @@
                    Source="{Binding SlikaUrl}"/>
             </VerticalStackLayout>
 
-            <Button Text="Registruj se" Command="{Binding RegistrujKorisnikaCommand}" CommandParameter="{Binding K}"></Button>
+            <Button Text="Registruj se" Command="{Binding RegistrujKorisnikaCommand}" CommandParameter="{Binding K}" IsEnabled="{Binding IsPasswordChecked}"></Button>
         </VerticalStackLayout>
     </ScrollView>
 

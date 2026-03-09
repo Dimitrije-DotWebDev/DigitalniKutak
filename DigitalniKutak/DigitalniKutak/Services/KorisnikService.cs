@@ -21,18 +21,11 @@ namespace DigitalniKutak.Services
             baseUrl = $"{_config.BaseApiUrl}";
         }
 
-        public async Task<bool> Registruj(Korisnik k)
+        public async Task<bool> Registruj(MultipartFormDataContent data)
         {
             var url = baseUrl + "api/Korisnik/register";
-            var response = await httpClient.PostAsJsonAsync(url,k);
-            if(response.StatusCode == System.Net.HttpStatusCode.OK)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            var response = await httpClient.PostAsync(url,data);
+            return response.IsSuccessStatusCode;
         }
 
     }
