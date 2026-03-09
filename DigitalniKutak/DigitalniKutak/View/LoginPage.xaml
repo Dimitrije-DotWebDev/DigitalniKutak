@@ -16,13 +16,14 @@
 
         <Entry
             Placeholder="Unesite E-Mail Adresu"
-            
+            Text="{Binding Email}"
             ></Entry>
         <Entry
             Placeholder="Unesite Sifru"
             IsPassword="True"
+            Text="{Binding Password}"
             ></Entry>
-        <Button Text="Prijavi se"></Button>
+        <Button Text="Prijavi se" Command="{Binding UlogujSeCommand}"></Button>
         <Label FontSize="16">
             <Label.FormattedText>
                 <FormattedString>

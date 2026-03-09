@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Json;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace DigitalniKutak.Services
@@ -25,6 +26,21 @@ namespace DigitalniKutak.Services
         {
             var url = baseUrl + "api/Korisnik/register";
             var response = await httpClient.PostAsync(url,data);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> Uloguj(string email, string password)
+        {
+            var url = baseUrl + "api/Korisnik/login";
+
+            var payload = new 
+            {
+                Email = email,
+                Password = password
+            };
+            string json = JsonSerializer.Serialize(payload);
+            using var content = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await httpClient.PostAsync(url, content);
             return response.IsSuccessStatusCode;
         }
 

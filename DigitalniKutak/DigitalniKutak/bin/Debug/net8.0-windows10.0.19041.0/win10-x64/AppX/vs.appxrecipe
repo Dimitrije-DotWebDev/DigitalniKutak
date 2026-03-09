@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-02-11T14:22:58.020</Modified>
+      <Modified>2026-03-09T13:05:31.971</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigitalniKutak.dll">
       <PackagePath>DigitalniKutak.dll</PackagePath>
-      <Modified>2026-02-11T14:22:57.175</Modified>
+      <Modified>2026-03-09T13:05:31.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DigitalniKutak.exe</PackagePath>
-      <Modified>2026-02-11T14:22:57.240</Modified>
+      <Modified>2026-03-09T13:05:31.197</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

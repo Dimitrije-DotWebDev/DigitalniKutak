@@ -3682,11 +3682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj",
+      "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\Backend\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj",
+      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Nastavnik\\.nuget\\packages\\",
-      "outputPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\obj\\",
+      "outputPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3765,13 +3765,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\obj\\project.nuget.cache : '<' is an invalid start of a value. Path: $.expectedPackageFiles[0] | LineNumber: 6 | BytePositionInLine: 0."
-    }
-  ]
+  }
 }

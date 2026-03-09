@@ -20,7 +20,10 @@ namespace DigitalniKutak.ViewModel
         Korisnik k;
 
         [ObservableProperty]
-        bool isPasswordNotChecked;
+        [NotifyPropertyChangedFor(nameof(IsPasswordChecked))]
+        bool isPasswordNotChecked = true;
+
+        public bool IsPasswordChecked => !IsPasswordNotChecked;
 
         [ObservableProperty]
         string potvrdaSifre;
@@ -98,6 +101,10 @@ namespace DigitalniKutak.ViewModel
         public void PasswordNotCheck()
         {
             IsPasswordNotChecked = K.Password != PotvrdaSifre;
+            if(K.Password == "")
+            {
+                IsPasswordNotChecked = true;
+            }
         }
 
     }
