@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/SqJCyPQb68=",
+  "dgSpecHash": "XW4T3c/HsYE=",
   "success": true,
-  "projectFilePath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Application\\Application.csproj",
+  "projectFilePath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nastavnik\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\Nastavnik\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
@@ -15,13 +15,13 @@
     "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.22\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.22.nupkg.sha512",
     "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.22\\microsoft.aspnetcore.identity.ui.8.0.22.nupkg.sha512",
     "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.3.0\\microsoft.aspnetcore.webutilities.2.3.0.nupkg.sha512",
-    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.24\\microsoft.data.sqlite.core.8.0.24.nupkg.sha512",
-    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.24\\microsoft.entityframeworkcore.8.0.24.nupkg.sha512",
-    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.24\\microsoft.entityframeworkcore.abstractions.8.0.24.nupkg.sha512",
-    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.24\\microsoft.entityframeworkcore.analyzers.8.0.24.nupkg.sha512",
-    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.24\\microsoft.entityframeworkcore.relational.8.0.24.nupkg.sha512",
-    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.24\\microsoft.entityframeworkcore.sqlite.8.0.24.nupkg.sha512",
-    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.24\\microsoft.entityframeworkcore.sqlite.core.8.0.24.nupkg.sha512",
+    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.25\\microsoft.data.sqlite.core.8.0.25.nupkg.sha512",
+    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.25\\microsoft.entityframeworkcore.8.0.25.nupkg.sha512",
+    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.25\\microsoft.entityframeworkcore.abstractions.8.0.25.nupkg.sha512",
+    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.25\\microsoft.entityframeworkcore.analyzers.8.0.25.nupkg.sha512",
+    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.25\\microsoft.entityframeworkcore.relational.8.0.25.nupkg.sha512",
+    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.25\\microsoft.entityframeworkcore.sqlite.8.0.25.nupkg.sha512",
+    "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.25\\microsoft.entityframeworkcore.sqlite.core.8.0.25.nupkg.sha512",
     "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "C:\\Users\\Nastavnik\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -46,15 +46,5 @@
     "C:\\Users\\Nastavnik\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Nastavnik\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file D:\\Dimitrije\\DigitalniKutak\\Backend\\Application\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Application\\Application.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Application\\Application.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

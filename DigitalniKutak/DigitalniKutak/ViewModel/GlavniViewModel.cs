@@ -16,13 +16,16 @@ namespace DigitalniKutak.ViewModel
     {
         NovostService novostService;
         SekcijaServis sekcijaService;
+        private readonly SessionService sessionService;
+
         public ObservableCollection<Novost> Novosti { get; } = new ObservableCollection<Novost>();
         public ObservableCollection<Sekcija> Sekcije { get; } = new ObservableCollection<Sekcija>();
-        public GlavniViewModel(NovostService novostService, SekcijaServis sekcijaServis)
+        public GlavniViewModel(NovostService novostService, SekcijaServis sekcijaServis, SessionService _sessionService)
         {
             Title = "Početna strana";
             this.novostService = novostService;
             this.sekcijaService = sekcijaServis;
+            sessionService = _sessionService;
         }
 
         [RelayCommand]
@@ -105,6 +108,8 @@ namespace DigitalniKutak.ViewModel
         [RelayCommand]
         async Task GetSve()
         {
+            await Shell.Current.DisplayAlert(sessionService.Token, "asad", "OK");
+
             if (this.IsBusy)
                 return;
             try

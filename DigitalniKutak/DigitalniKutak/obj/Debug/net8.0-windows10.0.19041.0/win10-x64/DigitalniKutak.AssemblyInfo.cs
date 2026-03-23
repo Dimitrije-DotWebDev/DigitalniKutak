@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DigitalniKutak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e71cec632b4d6862d7d4a7a8ff34aa420ad1b212")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fc62545daae7daa4d6f9cc7c944a7a228d9bfa90")]
 [assembly: System.Reflection.AssemblyProductAttribute("DigitalniKutak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DigitalniKutak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

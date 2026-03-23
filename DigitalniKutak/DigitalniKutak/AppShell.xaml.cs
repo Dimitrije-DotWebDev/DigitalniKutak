@@ -9,6 +9,7 @@ namespace DigitalniKutak
         {
 
             InitializeComponent();
+           
             Routing.RegisterRoute(nameof(NovostPage), typeof(NovostPage));
             Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
             Routing.RegisterRoute(nameof(RegisterPage), typeof(RegisterPage));
