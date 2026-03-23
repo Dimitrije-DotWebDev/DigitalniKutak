@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\services\\korisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\services\\korisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\view\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\view\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\model\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\model\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\services\\novostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\services\\novostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\viewmodel\\novostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\viewmodel\\novostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\services\\korisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\services\\korisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\view\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\view\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\model\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\model\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\view\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\view\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\model\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\model\\sekcija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\model\\sekcija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\viewmodel\\novostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\viewmodel\\novostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\viewmodel\\glavniviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +75,6 @@
       "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\viewmodel\\novostiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\services\\novostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\services\\novostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\model\\novost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\model\\novost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -77,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|solutionrelative:digitalnikutak\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E982D055-CDB4-44C6-8BBC-921F7DC4683A}|DigitalniKutak\\DigitalniKutak.csproj|d:\\dimitrije\\digitalnikutak\\digitalnikutak\\digitalnikutak\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -121,11 +125,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Services\\SessionService.cs",
+              "RelativeDocumentMoniker": "DigitalniKutak\\Services\\SessionService.cs",
+              "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Services\\SessionService.cs",
+              "RelativeToolTip": "DigitalniKutak\\Services\\SessionService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:24:45.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "RegisterPage.xaml.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\View\\RegisterPage.xaml.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\View\\RegisterPage.xaml.cs",
@@ -138,20 +155,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\ViewModel\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\ViewModel\\RegisterViewModel.cs",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\ViewModel\\RegisterViewModel.cs",
               "RelativeToolTip": "DigitalniKutak\\ViewModel\\RegisterViewModel.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAwwEkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T13:05:19.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ENUMs.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Model\\ENUMs.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\Model\\ENUMs.cs",
@@ -163,25 +180,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Korisnik.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Model\\Korisnik.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\Model\\Korisnik.cs",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Model\\Korisnik.cs",
               "RelativeToolTip": "DigitalniKutak\\Model\\Korisnik.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA1wBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T12:45:12.301Z"
+              "WhenOpened": "2026-01-26T12:45:12.301Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "KorisnikService.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Services\\KorisnikService.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\Services\\KorisnikService.cs",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Services\\KorisnikService.cs",
               "RelativeToolTip": "DigitalniKutak\\Services\\KorisnikService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAlwCsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwCwAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T12:35:52.01Z",
               "EditorCaption": ""
@@ -194,14 +212,14 @@
               "RelativeDocumentMoniker": "DigitalniKutak\\ViewModel\\LoginViewModel.cs",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\ViewModel\\LoginViewModel.cs",
               "RelativeToolTip": "DigitalniKutak\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAwwDQAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwDAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-19T12:37:24.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\View\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\View\\LoginPage.xaml.cs",
@@ -209,38 +227,37 @@
               "RelativeToolTip": "DigitalniKutak\\View\\LoginPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T13:18:07.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T13:18:07.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "RegisterPage.xaml",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\View\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "DigitalniKutak\\View\\RegisterPage.xaml",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\View\\RegisterPage.xaml",
               "RelativeToolTip": "DigitalniKutak\\View\\RegisterPage.xaml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwEwAAACJAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwE0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-29T13:09:05.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\View\\LoginPage.xaml",
               "RelativeDocumentMoniker": "DigitalniKutak\\View\\LoginPage.xaml",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\View\\LoginPage.xaml",
               "RelativeToolTip": "DigitalniKutak\\View\\LoginPage.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-29T13:08:53.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "NovostiViewModel.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\ViewModel\\NovostiViewModel.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\ViewModel\\NovostiViewModel.cs",
@@ -252,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "NovostPage.xaml.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\View\\NovostPage.xaml.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\View\\NovostPage.xaml.cs",
@@ -264,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Novost.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Model\\Novost.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\Model\\Novost.cs",
@@ -276,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "GlavniViewModel.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\ViewModel\\GlavniViewModel.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\ViewModel\\GlavniViewModel.cs",
@@ -288,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "NovostPage.xaml",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\View\\NovostPage.xaml",
               "RelativeDocumentMoniker": "DigitalniKutak\\View\\NovostPage.xaml",
@@ -300,19 +317,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "NovostViewModel.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\ViewModel\\NovostViewModel.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\ViewModel\\NovostViewModel.cs",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\ViewModel\\NovostViewModel.cs",
               "RelativeToolTip": "DigitalniKutak\\ViewModel\\NovostViewModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T13:04:02.045Z"
+              "WhenOpened": "2025-10-27T13:04:02.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "SekcijaServis.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Services\\SekcijaServis.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\Services\\SekcijaServis.cs",
@@ -324,19 +342,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "NovostService.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Services\\NovostService.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\Services\\NovostService.cs",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Services\\NovostService.cs",
               "RelativeToolTip": "DigitalniKutak\\Services\\NovostService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowCwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T20:34:08.526Z"
+              "WhenOpened": "2025-09-14T20:34:08.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "BaseViewModel.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\ViewModel\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\ViewModel\\BaseViewModel.cs",
@@ -348,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\MainPage.xaml",
               "RelativeDocumentMoniker": "DigitalniKutak\\MainPage.xaml",
@@ -360,19 +379,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\MauiProgram.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\MauiProgram.cs",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\MauiProgram.cs",
               "RelativeToolTip": "DigitalniKutak\\MauiProgram.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCQAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T21:10:25.957Z"
+              "WhenOpened": "2025-09-14T21:10:25.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AppConfig.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\AppConfig.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\AppConfig.cs",
@@ -384,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\AppShell.xaml.cs",
@@ -396,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\AppShell.xaml",
               "RelativeDocumentMoniker": "DigitalniKutak\\AppShell.xaml",
@@ -408,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\App.xaml",
               "RelativeDocumentMoniker": "DigitalniKutak\\App.xaml",
@@ -420,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Sekcija.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\Model\\Sekcija.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\Model\\Sekcija.cs",
@@ -432,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "DigitalniKutak.csproj",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak.csproj",
               "RelativeDocumentMoniker": "DigitalniKutak\\DigitalniKutak.csproj",
@@ -444,19 +464,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 8,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "DigitalniKutak\\MainPage.xaml.cs",
               "ToolTip": "D:\\Dimitrije\\DigitalniKutak\\DigitalniKutak\\DigitalniKutak\\MainPage.xaml.cs",
               "RelativeToolTip": "DigitalniKutak\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T20:31:07.384Z"
+              "WhenOpened": "2025-09-14T20:31:07.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Dimit\\.nuget\\packages\\communitytoolkit.maui\\9.0.0\\ReadMe.txt",
               "ToolTip": "C:\\Users\\Dimit\\.nuget\\packages\\communitytoolkit.maui\\9.0.0\\ReadMe.txt",

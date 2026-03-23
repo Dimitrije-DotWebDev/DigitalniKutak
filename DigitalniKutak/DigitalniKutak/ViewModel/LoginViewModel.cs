@@ -45,6 +45,7 @@ namespace DigitalniKutak.ViewModel
                 if (await korisnikService.Uloguj(email,password))
                 {
                     await Shell.Current.DisplayAlert($"Success","Uspesno ste se ulogovali", "OK");
+                    
                 }
             }
             catch(Exception ex)

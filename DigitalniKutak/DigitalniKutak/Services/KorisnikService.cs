@@ -41,6 +41,8 @@ namespace DigitalniKutak.Services
             string json = JsonSerializer.Serialize(payload);
             using var content = new StringContent(json, Encoding.UTF8, "application/json");
             var response = await httpClient.PostAsync(url, content);
+            var dictionary = JsonSerializer.Deserialize<Dictionary<string, JsonElement>>(await response.Content.ReadAsStringAsync());
+            await Shell.Current.DisplayAlert(dictionary["token"].ToString(), "asd", "asdd");
             return response.IsSuccessStatusCode;
         }
 

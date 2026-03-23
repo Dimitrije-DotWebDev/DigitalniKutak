@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj": {}
+    "D:\\Dimitrije\\DigitalniKutak\\Backend\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj": {
+    "D:\\Dimitrije\\DigitalniKutak\\Backend\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj",
+        "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\Backend\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj",
+        "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Nastavnik\\.nuget\\packages\\",
-        "outputPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\obj\\",
+        "outputPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

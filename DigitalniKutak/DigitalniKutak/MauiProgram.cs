@@ -30,6 +30,7 @@ namespace DigitalniKutak
             builder.Services.AddSingleton<NovostService>();
             builder.Services.AddSingleton<SekcijaServis>();
             builder.Services.AddSingleton<KorisnikService>();
+            builder.Services.AddSingleton<SessionService>();
 
             builder.Services.AddSingleton<GlavniViewModel>();
             builder.Services.AddTransient<NovostViewModel>();
@@ -41,6 +42,8 @@ namespace DigitalniKutak
 
             builder.Services.AddSingleton<LoginPage>();
             builder.Services.AddSingleton<RegisterPage>();
+
+
             return builder.Build();
         }
     }

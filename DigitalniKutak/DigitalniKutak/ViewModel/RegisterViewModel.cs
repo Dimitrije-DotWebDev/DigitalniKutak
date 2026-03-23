@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 
 using DigitalniKutak.Model;
 using DigitalniKutak.Services;
+using DigitalniKutak.View;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -70,6 +71,7 @@ namespace DigitalniKutak.ViewModel
                 if (success)
                 {
                     await Shell.Current.DisplayAlert($"Success", "Uspesno ste se registrovali", "OK");
+                    await Shell.Current.GoToAsync($"{nameof(LoginPage)}");
                 }
                 else
                 {
