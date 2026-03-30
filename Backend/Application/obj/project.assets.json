@@ -1845,11 +1845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\backend\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Application\\Application.csproj",
+      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Nastavnik\\.nuget\\packages\\",
-      "outputPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Application\\obj\\",
+      "outputPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1871,11 +1871,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Dimitrije\\DigitalniKutak\\backend\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Domain\\Domain.csproj"
+            "D:\\Dimitrije\\DigitalniKutak\\Backend\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Domain\\Domain.csproj"
             },
-            "D:\\Dimitrije\\DigitalniKutak\\backend\\Persistence\\Persistence.csproj": {
-              "projectPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Persistence\\Persistence.csproj"
+            "D:\\Dimitrije\\DigitalniKutak\\Backend\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Persistence\\Persistence.csproj"
             }
           }
         }

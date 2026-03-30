@@ -44,7 +44,7 @@ namespace DigitalniKutak.ViewModel
                 this.IsBusy = true;
                 if (await korisnikService.Uloguj(email,password))
                 {
-                    await Shell.Current.GoToAsync(".."); ;
+                    await Shell.Current.GoToAsync($".."); 
                     
                 }
             }

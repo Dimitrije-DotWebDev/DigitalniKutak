@@ -3682,11 +3682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\backend\\api\\API.csproj",
+      "projectUniqueName": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\api\\API.csproj",
+      "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj",
       "packagesPath": "C:\\Users\\Nastavnik\\.nuget\\packages\\",
-      "outputPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\api\\obj\\",
+      "outputPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3708,8 +3708,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Dimitrije\\DigitalniKutak\\backend\\Application\\Application.csproj": {
-              "projectPath": "D:\\Dimitrije\\DigitalniKutak\\backend\\Application\\Application.csproj"
+            "D:\\Dimitrije\\DigitalniKutak\\Backend\\Application\\Application.csproj": {
+              "projectPath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\Application\\Application.csproj"
             }
           }
         }

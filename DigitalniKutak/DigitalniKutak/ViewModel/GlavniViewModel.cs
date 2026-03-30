@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.Input;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace DigitalniKutak.ViewModel
 {
@@ -17,6 +18,14 @@ namespace DigitalniKutak.ViewModel
         NovostService novostService;
         SekcijaServis sekcijaService;
         private readonly SessionService sessionService;
+        [ObservableProperty]
+        private bool isLoggedIn = false;
+
+        [ObservableProperty]
+        private bool isNotLoggedIn = true;
+
+        [ObservableProperty]
+        private string username;
 
         public ObservableCollection<Novost> Novosti { get; } = new ObservableCollection<Novost>();
         public ObservableCollection<Sekcija> Sekcije { get; } = new ObservableCollection<Sekcija>();
@@ -108,7 +117,14 @@ namespace DigitalniKutak.ViewModel
         [RelayCommand]
         async Task GetSve()
         {
-            await Shell.Current.DisplayAlert(sessionService.Token, "asad", "OK");
+            
+
+            IsLoggedIn = sessionService.IsLoggedIn;
+            IsNotLoggedIn = sessionService.IsNotLoggedIn;
+            if (IsLoggedIn)
+            {
+                Username = sessionService.Korisnik.Ime;
+            }
 
             if (this.IsBusy)
                 return;

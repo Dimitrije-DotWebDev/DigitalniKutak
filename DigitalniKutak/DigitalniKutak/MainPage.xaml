@@ -15,7 +15,16 @@
           RowSpacing="10"
           RowDefinitions="Auto,*,*">
         <Grid Grid.ColumnSpan="2" ColumnDefinitions="*,150" RowDefinitions="*">
-            <Button Text="Prijava/Registracija" Grid.Column="1" Margin="0,0,20,0" Command="{Binding OtvoriLoginCommand}" ></Button>
+            <Button IsVisible="{Binding IsNotLoggedIn}" Text="Prijava/Registracija" Grid.Column="1" Margin="0,0,30,0" Command="{Binding OtvoriLoginCommand}" ></Button>
+            <Button IsVisible="{Binding IsLoggedIn}" Text="Odjavi se" Grid.Column="1" Margin="0,0,30,0" Command="{Binding OtvoriLoginCommand}" ></Button>
+            <Grid ColumnDefinitions="auto,auto"
+                  ColumnSpacing="5"
+                  RowDefinitions="*,*"
+                  RowSpacing="10">
+                <Label Text="Dobro došli" Grid.Column="0"></Label>
+                <Label Text="Prijavljeni ste kao" Grid.Column="0" Grid.Row="1"></Label>
+                <Label Text="{Binding Username}" Grid.Column="1" Grid.Row="1"></Label>
+            </Grid>
         </Grid>
 
         <CollectionView ItemsSource="{Binding Novosti}"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cjcubv7Y7s4=",
+  "dgSpecHash": "KprOmSOUpjA=",
   "success": true,
-  "projectFilePath": "D:\\Dimitrije\\DigitalniKutak\\backend\\api\\API.csproj",
+  "projectFilePath": "D:\\Dimitrije\\DigitalniKutak\\Backend\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nastavnik\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Nastavnik\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",

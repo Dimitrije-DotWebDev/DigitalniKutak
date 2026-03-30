@@ -14,5 +14,7 @@ namespace DigitalniKutak.Services
 
         public bool IsLoggedIn => !string.IsNullOrEmpty(Token);
 
+        public bool IsNotLoggedIn => string.IsNullOrEmpty(Token);
+
     }
 }
