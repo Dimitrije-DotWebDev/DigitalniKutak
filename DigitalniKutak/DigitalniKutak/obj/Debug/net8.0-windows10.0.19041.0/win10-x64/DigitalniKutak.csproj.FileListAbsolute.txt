@@ -558,3 +558,9 @@ E:\TESLA\Mobilne aplikacije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Deb
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\TESLA\Mobilne aplikacije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cap.scale-100.png
+D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-100.png
+D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\news.scale-100.png
+D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-100.png
+D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png
+D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png

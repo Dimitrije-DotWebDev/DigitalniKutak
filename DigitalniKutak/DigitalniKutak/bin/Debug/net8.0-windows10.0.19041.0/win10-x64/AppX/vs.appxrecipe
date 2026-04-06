@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-03-30T12:44:40.665</Modified>
+      <Modified>2026-04-06T12:45:22.170</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-12-29T13:15:44.275</Modified>
+      <Modified>2026-04-06T12:33:58.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigitalniKutak.runtimeconfig.json">
       <PackagePath>DigitalniKutak.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigitalniKutak.dll">
       <PackagePath>DigitalniKutak.dll</PackagePath>
-      <Modified>2026-03-30T12:44:40.422</Modified>
+      <Modified>2026-04-06T12:45:21.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DigitalniKutak.exe</PackagePath>
-      <Modified>2026-03-30T12:44:40.426</Modified>
+      <Modified>2026-04-06T12:45:21.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -83,211 +83,235 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-12-29T12:18:37.940</Modified>
+      <Modified>2026-04-06T12:04:53.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.932</Modified>
+      <Modified>2026-04-06T12:04:53.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.932</Modified>
+      <Modified>2026-04-06T12:04:53.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.931</Modified>
+      <Modified>2026-04-06T12:04:53.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.931</Modified>
+      <Modified>2026-04-06T12:04:53.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.931</Modified>
+      <Modified>2026-04-06T12:04:53.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.938</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.938</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.938</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.940</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.940</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.940</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.940</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.940</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.940</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.939</Modified>
+      <Modified>2026-04-06T12:04:53.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.936</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.936</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.936</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.936</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.936</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.937</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.937</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.937</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.937</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.936</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.938</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.938</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.938</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.937</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.937</Modified>
+      <Modified>2026-04-06T12:04:53.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.936</Modified>
+      <Modified>2026-04-06T12:04:53.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.935</Modified>
+      <Modified>2026-04-06T12:04:53.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.935</Modified>
+      <Modified>2026-04-06T12:04:53.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.934</Modified>
+      <Modified>2026-04-06T12:04:53.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.933</Modified>
+      <Modified>2026-04-06T12:04:53.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cap.scale-100.png">
+      <PackagePath>cap.scale-100.png</PackagePath>
+      <Modified>2026-04-06T12:04:53.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.931</Modified>
+      <Modified>2026-04-06T12:04:53.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.931</Modified>
+      <Modified>2026-04-06T12:04:53.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.931</Modified>
+      <Modified>2026-04-06T12:04:53.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.930</Modified>
+      <Modified>2026-04-06T12:04:53.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-12-29T12:18:37.930</Modified>
+      <Modified>2026-04-06T12:04:53.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+      <Modified>2026-04-06T12:04:53.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-100.png">
+      <PackagePath>info.scale-100.png</PackagePath>
+      <Modified>2026-04-06T12:04:53.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\news.scale-100.png">
+      <PackagePath>news.scale-100.png</PackagePath>
+      <Modified>2026-04-06T12:04:53.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-100.png">
+      <PackagePath>trophy.scale-100.png</PackagePath>
+      <Modified>2026-04-06T12:04:53.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png">
+      <PackagePath>user.scale-100.png</PackagePath>
+      <Modified>2026-04-06T12:04:53.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dimitrije\DigitalniKutak\DigitalniKutak\DigitalniKutak\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigitalniKutak.deps.json">
       <PackagePath>DigitalniKutak.deps.json</PackagePath>
-      <Modified>2025-12-29T13:15:44.124</Modified>
+      <Modified>2026-04-06T12:33:58.132</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nastavnik\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
