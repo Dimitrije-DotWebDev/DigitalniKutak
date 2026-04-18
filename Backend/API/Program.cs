@@ -9,6 +9,8 @@ using Microsoft.Extensions.FileProviders;
 using Persistence;
 using Domain;
 using Microsoft.AspNetCore.Identity;
+using Application.Interfaces;
+using Infrastructure.Security;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.UseUrls("http://0.0.0.0:5000");
@@ -41,6 +43,7 @@ identityBuilder.AddEntityFrameworkStores<DataContext>();
 identityBuilder.AddSignInManager<SignInManager<Korisnik>>();
 builder.Services.AddSingleton<TimeProvider>(TimeProvider.System);
 builder.Services.AddTransient<UploadFileService>();
+builder.Services.AddScoped<IJwtGenerator, JwtGenerator>();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();

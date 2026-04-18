@@ -6,6 +6,7 @@ using MediatR;
 using Domain;
 using Persistence;
 using Microsoft.AspNetCore.Identity;
+using Application.Interfaces;
 
 namespace Application.Korisnici
 {
@@ -21,11 +22,13 @@ namespace Application.Korisnici
         {
             private readonly UserManager<Korisnik> _userManager;
             private readonly SignInManager<Korisnik> _signInManager;
+            private readonly IJwtGenerator jwtGenerator;
 
-            public Handler(UserManager<Korisnik> userManager, SignInManager<Korisnik> signInManager)
+            public Handler(UserManager<Korisnik> userManager, SignInManager<Korisnik> signInManager, IJwtGenerator jwtGenerator)
             {
                 _userManager = userManager;
                 _signInManager = signInManager;
+                this.jwtGenerator = jwtGenerator;
             }
 
             public async Task<KorisnikDTO> Handle(Query request, CancellationToken cancellationToken)
@@ -48,7 +51,7 @@ namespace Application.Korisnici
                         ImageUrl = korisnik.ImageUrl,
                         Razred = korisnik.Razred,
                         Odeljenje = korisnik.Odeljenje,
-                        Token = "MOCK_TOKEN"
+                        Token = this.jwtGenerator.CreateToken(korisnik)
                     };
                 }
 
