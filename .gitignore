@@ -89,3 +89,27 @@ build/
 ############################################
 
 publish/
+
+############################################
+# BACKEND .NET CORE
+############################################
+
+Backend/**/bin/
+Backend/**/obj/
+
+**/bin/
+**/obj/
+
+*.dll
+*.pdb
+
+############################################
+# EF / EF CORE GENERATED
+############################################
+
+*.cache
+*.assets.cache
+project.assets.json
+project.nuget.cache
+*.csproj.CoreCompileInputs.cache
+*.csproj.AssemblyReference.cache
