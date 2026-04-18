@@ -7,6 +7,7 @@ using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using static DigitalniKutak.Model.ENUMs;
 
 namespace DigitalniKutak.Services
 {
@@ -53,6 +54,10 @@ namespace DigitalniKutak.Services
                 ImageUrl = dictionary?["imageUrl"].ToString(),
                 Ime = dictionary?["ime"].ToString(),
                 Prezime = dictionary?["prezime"].ToString(),
+                TipKorisnika = Enum.TryParse<UserType>(
+                            dictionary?["tipKorisnika"].GetString(),
+                            out var tip
+                        ) ? tip : UserType.Student,
                 Email = dictionary?["email"].ToString(),
                 Odeljenje = dictionary?["odeljenje"].ToString(),
                 Razred = dictionary?["razred"].ToString(),
