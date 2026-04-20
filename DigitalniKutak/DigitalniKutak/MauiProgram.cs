@@ -37,12 +37,14 @@ namespace DigitalniKutak
             builder.Services.AddSingleton<LoginViewModel>();
             builder.Services.AddSingleton<RegisterViewModel>();
             builder.Services.AddSingleton<TakmicenjaViewModel>();
+            builder.Services.AddSingleton<KreirajTakmicenjaViewModel>();
 
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddTransient<NovostPage>();
             builder.Services.AddSingleton<LoginPage>();
             builder.Services.AddSingleton<RegisterPage>();
             builder.Services.AddSingleton<TakmicenjaPage>();
+            builder.Services.AddSingleton<KreirajTakmicenje>();
 
 
             return builder.Build();

@@ -14,13 +14,13 @@
             ColumnDefinitions="*,AUto"
             ColumnSpacing="5">
 
-        <HorizontalStackLayout Grid.Column="0" Spacing="5" Margin="0,0,0,15">
+        <HorizontalStackLayout Grid.Column="0" Spacing="5" Margin="10,15,0,0">
             <Button Text="Nauka"></Button>
             <Button Text="Sport"></Button>
             <Button Text="eSport"></Button>
             <Button Text="Ostalo"></Button>
         </HorizontalStackLayout>
-        <Button Text="Kreiraj Takmičenje" Grid.Column="1" Margin="0,15,0,0"></Button>
+        <Button Text="Kreiraj Takmičenje" Grid.Column="1" Margin="0,15,10,0" Command="{Binding OtvoriKreiranjeTakmicenjaCommand}" IsVisible="{Binding CanView}"></Button>
         <!--<CollectionView ItemsSource="{Binding Novosti}"
                 Grid.ColumnSpan="2"
                 SelectionMode="Single"

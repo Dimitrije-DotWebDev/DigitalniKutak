@@ -57,7 +57,7 @@ namespace DigitalniKutak.Services
                 TipKorisnika = Enum.TryParse<UserType>(
                             dictionary?["tipKorisnika"].GetString(),
                             out var tip
-                        ) ? tip : UserType.Student,
+                        ) ? tip : UserType.student,
                 Email = dictionary?["email"].ToString(),
                 Odeljenje = dictionary?["odeljenje"].ToString(),
                 Razred = dictionary?["razred"].ToString(),

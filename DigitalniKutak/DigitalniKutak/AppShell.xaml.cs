@@ -14,6 +14,7 @@ namespace DigitalniKutak
             Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
             Routing.RegisterRoute(nameof(RegisterPage), typeof(RegisterPage));
             Routing.RegisterRoute(nameof(TakmicenjaPage), typeof(TakmicenjaPage));
+            Routing.RegisterRoute(nameof(KreirajTakmicenje), typeof(KreirajTakmicenje));
         }
     }
 }

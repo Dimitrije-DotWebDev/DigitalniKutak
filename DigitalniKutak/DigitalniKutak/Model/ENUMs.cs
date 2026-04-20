@@ -16,9 +16,16 @@ namespace DigitalniKutak.Model
         }
         public enum UserType
         {
-            Admin,
-            Professor,
-            Student
+            admin,
+            professor,
+            student
+        }
+        public enum CompeitionCategory
+        {
+            Nauka,
+            Sport,
+            ESport,
+            Ostalo
         }
     }
 }
