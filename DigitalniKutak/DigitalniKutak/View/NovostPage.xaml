@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DigitalniKutak.View.NovostPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:model="clr-namespace:DigitalniKutak.Model"
+             xmlns:viewmodel="clr-namespace:DigitalniKutak.ViewModel"
+             x:DataType="viewmodel:NovostViewModel"
+             Title="{Binding Title}">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Margin="0,35,0,0" FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding Novost.Naslov}"></Label>
+            <Grid ColumnDefinitions="*,100">
+                <Label Grid.Column="1" FontAttributes="Italic" Text="{Binding Novost.Timestamp}"></Label>
+            </Grid>
+            <Image  Source="{Binding Novost.SlikaPutanja}"
+HeightRequest="300" ></Image>
+            <Label Padding="50,15,50,15" Text="{Binding Novost.Sadrzaj}"></Label>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

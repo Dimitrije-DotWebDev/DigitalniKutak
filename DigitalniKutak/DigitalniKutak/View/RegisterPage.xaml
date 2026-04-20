@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DigitalniKutak.View.RegisterPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:model="clr-namespace:DigitalniKutak.Model"
+             xmlns:viewmodel="clr-namespace:DigitalniKutak.ViewModel"
+             x:DataType="viewmodel:RegisterViewModel"
+             Title="{Binding Title}">
+    <ScrollView>
+        <VerticalStackLayout Margin="250,30,250,50" Spacing="30">
+            <Entry Placeholder="Unesite Korisnicko Ime" Text="{Binding K.Username}">
+            </Entry>
+            <Entry Placeholder="Unesite Ime" Text="{Binding K.Ime}">
+            </Entry>
+            <Entry Placeholder="Unesite Prezime" Text="{Binding K.Prezime}">
+            </Entry>
+            <Entry Placeholder="Unesite Sifru" IsPassword="True" Text="{Binding K.Password}">
+                <Entry.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="TextChanged" Command="{Binding PasswordNotCheckCommand}"></toolkit:EventToCommandBehavior>
+                </Entry.Behaviors>
+            </Entry>
+            <Entry Placeholder="Potvrdite Sifru" IsPassword="True" Text="{Binding PotvrdaSifre}">
+                <Entry.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="TextChanged" Command="{Binding PasswordNotCheckCommand}"></toolkit:EventToCommandBehavior>
+                </Entry.Behaviors>
+            </Entry>
+            <Label TextColor="Red" Text="Sifra se ne poklapa" IsVisible="{Binding IsPasswordNotChecked}"></Label>
+            <Entry Placeholder="Unesite E-Mail" Text="{Binding K.Email}">
+            </Entry>
+            <Picker x:Name="Razred"
+            Title="Odaberite Razred"
+                    SelectedItem="{Binding K.Razred}">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>I</x:String>
+                        <x:String>II</x:String>
+                        <x:String>III</x:String>
+                        <x:String>IV</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="Odeljenje"
+                Title="Odaberite Odeljenje"
+                    SelectedItem="{Binding K.Odeljenje}">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <DatePicker Margin="170,0,0,0" MaximumDate="1,1,2010" MinimumDate="1,1,1950" Date="{Binding K.DatumRodjenja}">
+
+            </DatePicker>
+            <VerticalStackLayout Padding="30" Spacing="25">
+                <Button 
+            Text="Izaberi sliku"
+                    Command="{Binding UcitajSlikuCommand}"
+            HorizontalOptions="Fill"  />
+
+                <Image
+                   x:Name="MyImage"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   Aspect="AspectFit"
+                   Source="{Binding SlikaUrl}"/>
+            </VerticalStackLayout>
+
+            <Button Text="Registruj se" Command="{Binding RegistrujKorisnikaCommand}" CommandParameter="{Binding K}" IsEnabled="{Binding IsPasswordChecked}"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
