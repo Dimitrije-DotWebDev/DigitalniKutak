@@ -11,6 +11,10 @@ using Domain;
 using Microsoft.AspNetCore.Identity;
 using Application.Interfaces;
 using Infrastructure.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Net;
+using Microsoft.AspNetCore.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.UseUrls("http://0.0.0.0:5000");
@@ -43,7 +47,20 @@ identityBuilder.AddEntityFrameworkStores<DataContext>();
 identityBuilder.AddSignInManager<SignInManager<Korisnik>>();
 builder.Services.AddSingleton<TimeProvider>(TimeProvider.System);
 builder.Services.AddTransient<UploadFileService>();
+var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("super tajni kljuc za jwt token test verzija za skolski projekat digitalni kutak"));
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = key,
+            ValidateAudience = false,
+            ValidateIssuer = false,
+        };
+    });
 builder.Services.AddScoped<IJwtGenerator, JwtGenerator>();
+builder.Services.AddScoped<IUserAccessor, UserAccessor>();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
@@ -61,7 +78,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseAuthentication();
 app.UseCors("CorsPolicy");
 app.UseStaticFiles(new StaticFileOptions
 {

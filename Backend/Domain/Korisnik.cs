@@ -10,5 +10,6 @@ namespace Domain
         public string Odeljenje {get; set; }
         public string ImageUrl { get; set; }
         public DateTime DatumRodjenja { get; set; }
+        public ICollection<ClanoviEkipe> ClanoviEkipe { get; set; } = new List<ClanoviEkipe>();
     }
 }

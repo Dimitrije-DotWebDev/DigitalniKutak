@@ -10,3 +10,11 @@ public enum UserType
     Professor,
     Student
 }
+
+public enum CompeitionCategory
+{
+    Nauka,
+    Sport,
+    ESport,
+    Ostalo
+}
