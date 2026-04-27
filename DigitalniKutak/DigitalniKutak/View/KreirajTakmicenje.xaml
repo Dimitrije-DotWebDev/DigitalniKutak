@@ -8,14 +8,15 @@
              x:DataType="viewmodel:KreirajTakmicenjaViewModel"
              Title="{Binding Title}">
     <ScrollView>
-        <VerticalStackLayout>
-            <Entry Placeholder="Naziv Takmicenja"></Entry>
-            <Entry Placeholder="Opis"></Entry>
-            <DatePicker></DatePicker>
+        <VerticalStackLayout Margin="250,30,250,50">
+            <Entry Text="{Binding T.Naziv}" Placeholder="Naziv Takmicenja" Margin="0,15,0,15"></Entry>
+            <Entry Text="{Binding T.Opis}" Placeholder="Opis" Margin="0,15,0,15"></Entry>
+            <DatePicker Date="{Binding T.DatumOdrzavanja}" Margin="0,15,0,15"></DatePicker>
             <Label Text="Po odeljenju"></Label>
-            <CheckBox></CheckBox>
+            <CheckBox IsChecked="{Binding T.PoOdeljenju}"></CheckBox>
             <Picker
-                    Title="Odaberite Kategoriju">
+                    Title="Odaberite Kategoriju"
+                    SelectedIndex="{Binding T.Kategorija}">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Nauka</x:String>
@@ -25,8 +26,10 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-            <CheckBox></CheckBox>
-            <Entry Placeholder="Maksimalni Broj Ucenika Po Ekipi"></Entry>
+            <Label Text="Dozvoli nazive ekipa"></Label>
+            <CheckBox IsChecked="{Binding T.DozvoliNaziveEkipa}"></CheckBox>
+            <Entry Text="{Binding T.MaxBrojClanova}" Placeholder="Maksimalni Broj Ucenika Po Ekipi"></Entry>
+            <Button Text="Kreiraj Takmicenje" Command="{Binding KreirajTakmicenjeCommand}" IsEnabled="True" Margin="0,15,0,0"></Button>
         </VerticalStackLayout>
     </ScrollView>
         
